@@ -1,0 +1,32 @@
+{
+  "0": {
+    "image": "https://amazingbakery.000webhostapp.com/view/image/products/download (2).jpg",
+    "keywords": "cup",
+    "price": "7",
+    "name": "Cupcake",
+    "description": "cupcake",
+    "id": "19",
+    "category": "1",
+    "brand": "2"
+  },
+  "1": {
+    "image": "https://amazingbakery.000webhostapp.com/view/image/products/download (3).jpg",
+    "keywords": "bread",
+    "price": "7",
+    "name": "Tea Bread",
+    "description": "Tea bread",
+    "id": "21",
+    "category": "2",
+    "brand": "1"
+  },
+  "2": {
+    "image": "https://amazingbakery.000webhostapp.com/view/image/products/download.jpg",
+    "keywords": "cup cake",
+    "price": "7",
+    "name": "Vanilla Cupcake with Cream",
+    "description": "Delicious Vanilla Cupcake",
+    "id": "23",
+    "category": "1",
+    "brand": "2"
+  }
+}

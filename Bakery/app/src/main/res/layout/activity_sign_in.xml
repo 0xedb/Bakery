@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignIn">
+
+    <EditText
+        android:id="@+id/s_email"
+        android:layout_width="296dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="129dp"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:hint="@string/email_hint"
+        tools:text="example@example.com"
+        android:inputType="textEmailAddress"
+        android:importantForAutofill="no" tools:targetApi="o" />
+
+    <EditText
+        android:id="@+id/s_passphrase"
+        android:layout_width="296dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/s_email"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="51dp"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:hint="@string/password_hint"
+        android:importantForAutofill="no"
+        tools:text="JustSomeLongPassword"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/s_signin"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="297dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/s_passphrase"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="51dp"
+        android:onClick="signIn"
+        android:text="@string/sign_int_button_text"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+</RelativeLayout>
